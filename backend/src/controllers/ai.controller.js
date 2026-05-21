@@ -32,7 +32,7 @@ export const generateEmail = async (req, res) => {
 Your task is to generate a HIGH-CONVERTING cold email to a recruiter for a job opportunity.
 
 IMPORTANT:
-- Even if the user gives only 2–4 words, assume realistic context.
+- Even if the user gives only 2-4 words, assume realistic context.
 - Do NOT ask for clarification.
 - Make professional assumptions.
 - Avoid generic phrases.
@@ -82,13 +82,13 @@ Create intelligent assumptions about:
 SUBJECT LINE RULES
 ====================================================
 
-• 6–9 words
-• Must sound confident
-• No generic phrases like:
+* 6-9 words
+* Must sound confident
+* No generic phrases like:
   - "Quick question"
   - "Looking for opportunity"
   - "Job application"
-• Should highlight value or experience
+* Should highlight value or experience
 
 Example styles:
 "Backend engineer with 2+ yrs scaling APIs"
@@ -99,7 +99,7 @@ Example styles:
 EMAIL BODY STRUCTURE (STRICT)
 ====================================================
 
-Keep 60–90 words.
+Keep 60-90 words.
 
 Line 1: Personalized observation about hiring  
 Line 2: Mention common hiring/scaling challenge  
@@ -109,17 +109,17 @@ Line 6: Clear CTA
 Line 7: Sign-off with name and title  
 
 Tone:
-• Confident
-• Professional
-• Not desperate
-• No emojis
-• No hype words
+* Confident
+* Professional
+* Not desperate
+* No emojis
+* No hype words
 
 ====================================================
 LINKEDIN DM STRUCTURE
 ====================================================
 
-30–50 words.
+30-50 words.
 Short, conversational.
 Observation + value + soft ask.
 
@@ -127,7 +127,7 @@ Observation + value + soft ask.
 FOLLOW-UP EMAIL STRUCTURE
 ====================================================
 
-50–80 words.
+50-80 words.
 New angle.
 Emphasize long-term value.
 Professional urgency.

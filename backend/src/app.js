@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(cookieParser());
 
 app.use('/api', authRouter);
-app.use('/api', AiRouter);
+app.use('/api/ai', AiRouter);
 
 
 export default app ;

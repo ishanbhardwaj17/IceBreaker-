@@ -56,7 +56,12 @@ const Register = () => {
       setConfirmPassword('')
       setShowPassword(false)
       setShowConfirm(false)
-      navigate('/verify-email')
+      navigate('/verify-email', {
+        state: {
+          userId: response?.userId,
+          email: response?.email || email,
+        },
+      })
     } catch {
       // Redux stores the error message for inline display.
     }
