@@ -1,1 +1,26 @@
 @import "tailwindcss";
+
+@layer base {
+	html {
+		color-scheme: dark;
+	}
+
+	body {
+		margin: 0;
+		min-width: 320px;
+		background: #0d1f23;
+		color: #f5f7fa;
+		font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+
+	a {
+		color: inherit;
+		text-decoration: none;
+	}
+
+	* {
+		box-sizing: border-box;
+	}
+}
